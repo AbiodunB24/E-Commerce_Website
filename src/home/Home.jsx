@@ -21,11 +21,11 @@ const Home = () => {
         rating={2}
         />
         <Product
-        id="549812"
+        id="549815"
         title="Sony WH-1000XM4 Wireless Headphones"
         price={348.00}
-        rating={4}
         image="https://images-na.ssl-images-amazon.com/images/I/71o8Q5XJS5L._AC_SL1500_.jpg"
+        rating={4}
         />
         
         </div>
