@@ -2,7 +2,7 @@ import reactLogo from "./assets/react.svg";
 import "./App.css";
 import Header from "./header/Header";
 import Home from "./home/Home";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import {  Route, Routes } from "react-router-dom";
 import Checkout from "./checkout/Checkout";
 import Login from "./Login/Login";
 import { useEffect } from "react";
