@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./Checkout.css";
 import Subtotal from "../subtotal/Subtotal";
 import { useStateValue } from "../StateProvider";

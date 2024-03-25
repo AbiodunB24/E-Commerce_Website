@@ -1,4 +1,4 @@
-import React from 'react'
+
 import "../home/Product.css"
 import { useStateValue } from '../StateProvider'
 
