@@ -20,3 +20,22 @@
     mask-image: linear-gradient(to bottom, rgba(0, 0,0,1), rgba(0,0,0,0));
 
 }
+@media screen and (max-width: 750px){
+    .home__row{
+       display: flex;
+       flex-direction: column;
+      overflow: hidden;
+      margin-right: 0 0 0 0;
+    }
+    .home__image{
+        width: 100%;
+        
+        z-index: -1;
+        margin-bottom: -150px;
+        mask-image: linear-gradient(to bottom, rgba(0, 0,0,1), rgba(0,0,0,0));
+        overflow: hidden;
+    }
+    .home{
+        overflow: hidden;
+    }
+}
