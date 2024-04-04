@@ -27,10 +27,10 @@ const functions = require("firebase-functions");
 const express = require("express");
 const cors = require("cors");
 // eslint-disable-next-line func-call-spacing
-const stripe = require("stripe")
-// eslint-disable-next-line max-len, no-unexpected-multiline
-("sk_test_51OyUoIJeoJTrziWFyYPVPmHXVdhWrJUi2407rS1aVsmjGueCdCBjS1aQP94wT5yJ7cIbiZJZan15dgJnz2kONeF00MvJ7Y1fU",
-);
+// const stripe = require("stripe")
+// // eslint-disable-next-line max-len, no-unexpected-multiline
+// // ("sk_test_51OyUoIJeoJTrziWFyYPVPmHXVdhWrJUi2407rS1aVsmjGueCdCBjS1aQP94wT5yJ7cIbiZJZan15dgJnz2kONeF00MvJ7Y1fU",
+// // );
 
 // -API
 
