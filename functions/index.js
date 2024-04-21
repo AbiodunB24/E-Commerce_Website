@@ -1,4 +1,3 @@
-/* eslint-disable spaced-comment */
 /* eslint-disable max-len */
 /* eslint-disable padded-blocks */
 /* eslint-disable indent */
@@ -27,10 +26,7 @@ const functions = require("firebase-functions");
 const express = require("express");
 const cors = require("cors");
 // eslint-disable-next-line func-call-spacing
-// const stripe = require("stripe")
-// // eslint-disable-next-line max-len, no-unexpected-multiline
-// // ("sk_test_51OyUoIJeoJTrziWFyYPVPmHXVdhWrJUi2407rS1aVsmjGueCdCBjS1aQP94wT5yJ7cIbiZJZan15dgJnz2kONeF00MvJ7Y1fU",
-// // );
+const stripe = require("stripe") (process.env.STRIPE_KEY);
 
 // -API
 
@@ -58,12 +54,10 @@ const cors = require("cors");
 
             // OK - created
             response.status(201).send({
-                clientSecret: paymentIntent.client_secret,
-            });
-};
+}.
 
 // -Listen command
-        exports.api = functions.https.onRequest(app);
+        exports.api = functions.https.onRequest(app))
 
 // Example endpoint
 // http://127.0.0.1:5001/e-commerce-website-aca89/us-central1/api
